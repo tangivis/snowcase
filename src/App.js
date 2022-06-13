@@ -1,8 +1,16 @@
 import { Features, Download, SectionWrapper } from './components';
+import assets from './assets';
+
 const App = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">React Native NFT Snowcase</h1>
+      <SectionWrapper
+        title="Your own store of Nifty NFTs. Start Selling & Growing"
+        description="Buy, store, collect NFTs, exchange & earn crypto. Join 25+ million people using ProNef Marketplace."
+        showBtn
+        mockupImg={assets.homeHero}
+        banner='banner'
+      />
     </>
   );
 }
