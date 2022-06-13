@@ -1,3 +1,4 @@
+import { Features, Download, SectionWrapper } from './components';
 const App = () => {
   return (
     <>
