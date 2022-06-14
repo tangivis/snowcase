@@ -21,7 +21,7 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
           `}>{title}</h1>
           <p className={`${styles.descriptionText} ${reverse ? styles.blackText : styles.whiteText}`}>{description}</p>
           { showBtn && (<Button
-            assetUrl={assets.expo}
+            assetsUrl={assets.expo}
             link="https://expo.dev/@adrianhajdin/react_native_app?serviceType=classic&distribution=expo-go"
           />)}
         </div>
